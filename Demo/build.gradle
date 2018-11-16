@@ -34,6 +34,7 @@ dependencies {
     compile 'com.excellence:basetools:1.2.5'
     // 本地依赖
     compile project(':DownloaderLibrary')
+    compile project(path: ':DownloadAnnotations')
     // 远程依赖
     // compile 'com.excellence:downloader:_latestVersion'
 }
